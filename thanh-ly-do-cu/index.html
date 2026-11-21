@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-vi="Thanh lý đồ không dùng — Kawasaki" data-en="Used items for sale — Kawasaki">Thanh lý đồ không dùng — Kawasaki</title>
+<style>
+  :root{--bg:#fdf6ee;--card:#ffffff;--ink:#2b2118;--muted:#7a6a5c;--accent:#b3541e;--line:#eadfce;--chip:#fdeee3}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,"Hiragino Sans","Noto Sans JP",sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}
+  .wrap{max-width:720px;margin:0 auto;padding:0 16px 48px}
+  .hero{margin:0 -16px;border-radius:0 0 22px 22px;padding:40px 20px 24px;background:linear-gradient(160deg,#e08a4c,#b3541e 65%,#8a3f14);color:#fff}
+  .hero h1{font-size:28px;line-height:1.25;margin:0 0 6px}
+  .hero p{margin:0;font-size:14px;font-weight:600;letter-spacing:.02em;color:#ffe3cd}
+  .langbar{display:flex;gap:8px;margin:16px 0 4px}
+  .langbar button{border:1px solid var(--line);background:#fff;color:var(--ink);font-size:15px;font-weight:700;padding:8px 18px;border-radius:999px;cursor:pointer}
+  .langbar button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+  .info{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px 16px;margin:12px 0 20px;box-shadow:0 2px 10px rgba(90,50,20,.06)}
+  .info p{margin:3px 0}
+  .item{background:var(--card);border:1px solid var(--line);border-radius:16px;margin-bottom:16px;overflow:hidden;box-shadow:0 2px 10px rgba(90,50,20,.06)}
+  .item .body{padding:14px 16px 16px}
+  .item h2{font-size:20px;margin:0 0 4px}
+  .price{display:inline-block;background:var(--chip);color:var(--accent);font-weight:700;font-size:13.5px;padding:2px 10px;border-radius:999px;margin:2px 0 6px}
+  .item p{margin:4px 0}
+  .photos{display:grid;grid-template-columns:1fr 1fr;gap:6px;padding:0 6px 6px}
+  .photos a{display:block}
+  .photos img{width:100%;height:100%;object-fit:cover;display:block;border-radius:10px;aspect-ratio:1/1}
+  .photos.single{grid-template-columns:1fr}
+  .photos.single img{aspect-ratio:auto}
+  .foot{color:var(--muted);font-size:13px;margin-top:26px;text-align:center;line-height:1.7}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="hero">
+    <h1 data-vi="🧺 Thanh lý đồ không dùng" data-en="🧺 Used items for sale">🧺 Thanh lý đồ không dùng</h1>
+    <p data-vi="Đồ nhà không dùng nữa, còn tốt · Cập nhật 21/11/2026" data-en="Household items we no longer need, all in good condition · Updated Nov 21, 2026">Đồ nhà không dùng nữa, còn tốt · Cập nhật 21/11/2026</p>
+  </div>
+
+  <div class="langbar">
+    <button id="btn-vi" class="on" onclick="setLang('vi')">🇻🇳 Tiếng Việt</button>
+    <button id="btn-en" onclick="setLang('en')">🇬🇧 English</button>
+  </div>
+
+  <div class="info">
+    <p>📍 <span data-vi="Nhận tại Kawasaki, Kanagawa (ưu tiên tới lấy)" data-en="Pickup in Kawasaki, Kanagawa">Nhận tại Kawasaki, Kanagawa (ưu tiên tới lấy)</span></p>
+    <p>💬 <span data-vi="Ai cần món nào cứ nhắn tin cho mình nhé." data-en="Message me if you are interested in any item.">Ai cần món nào cứ nhắn tin cho mình nhé.</span></p>
+  </div>
+
+  <div class="item">
+    <div class="body">
+      <h2 data-vi="Nhóm đồ em bé" data-en="Baby items bundle">Nhóm đồ em bé</h2>
+      <span class="price" data-vi="Giá: liên hệ" data-en="Price: please ask">Giá: liên hệ</span>
+      <p data-vi="Gồm: cũi gỗ 120×70, kèm nệm và ra, đáy chỉnh được 2 nấc · máy hút sữa điện đôi Medela, đủ phụ kiện, tặng thêm 2 bình trữ sữa + 2 đầu trợ ti mới · máy tiệt trùng UV Philips, còn chạy tốt. Tặng kèm chậu tắm em bé + 2 món đồ chơi. Tất cả đã vệ sinh sạch sẽ, còn dùng tốt."
+         data-en="Includes: wooden crib 120×70 cm with mattress and sheet, 2-level adjustable base · Medela double electric breast pump, full accessories, plus 2 extra milk bottles + 2 new nipple shields · Philips UV sterilizer, works well. Baby bathtub + 2 toys included free. Everything is cleaned and in good working condition.">Gồm: cũi gỗ 120×70, kèm nệm và ra, đáy chỉnh được 2 nấc · máy hút sữa điện đôi Medela, đủ phụ kiện, tặng thêm 2 bình trữ sữa + 2 đầu trợ ti mới · máy tiệt trùng UV Philips, còn chạy tốt. Tặng kèm chậu tắm em bé + 2 món đồ chơi. Tất cả đã vệ sinh sạch sẽ, còn dùng tốt.</p>
+    </div>
+    <div class="photos">
+      <a href="img/crib.jpg"><img src="img/crib.jpg" alt="Baby crib / Cũi em bé"></a>
+      <a href="img/medela-box.jpg"><img src="img/medela-box.jpg" alt="Medela Swing Maxi Flex box"></a>
+      <a href="img/medela-1.jpg"><img src="img/medela-1.jpg" alt="Medela pump set / Bộ máy hút sữa Medela"></a>
+      <a href="img/medela-2.jpg"><img src="img/medela-2.jpg" alt="Medela pump set, another view / Bộ máy hút sữa Medela, góc khác"></a>
+      <a href="img/philips-front.jpg"><img src="img/philips-front.jpg" alt="Philips UV sterilizer / Máy tiệt trùng Philips"></a>
+      <a href="img/philips-inside.jpg"><img src="img/philips-inside.jpg" alt="Philips UV sterilizer inside / Bên trong máy tiệt trùng"></a>
+      <a href="img/bathtub.jpg"><img src="img/bathtub.jpg" alt="Baby bathtub / Chậu tắm em bé"></a>
+      <a href="img/cube.jpg"><img src="img/cube.jpg" alt="Wooden activity cube / Hộp đồ chơi gỗ"></a>
+      <a href="img/toyroyal.jpg"><img src="img/toyroyal.jpg" alt="Toyroyal baby toy / Đồ chơi Toyroyal"></a>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="body">
+      <h2 data-vi="Tủ đông Panasonic 43L" data-en="Panasonic 43L freezer">Tủ đông Panasonic 43L</h2>
+      <span class="price" data-vi="Giá: liên hệ" data-en="Price: please ask">Giá: liên hệ</span>
+      <p data-vi="Cửa trượt phía trên. Bên ngoài hơi cũ nhưng vẫn đông tốt, bên trong sạch, đã vệ sinh. Không rõ năm sản xuất."
+         data-en="Sliding top doors. The outside shows some wear but it freezes well; the inside is clean. Year of manufacture unknown.">Cửa trượt phía trên. Bên ngoài hơi cũ nhưng vẫn đông tốt, bên trong sạch, đã vệ sinh. Không rõ năm sản xuất.</p>
+    </div>
+    <div class="photos">
+      <a href="img/freezer-front.jpg"><img src="img/freezer-front.jpg" alt="Panasonic freezer front / Mặt trước tủ đông"></a>
+      <a href="img/freezer-top.jpg"><img src="img/freezer-top.jpg" alt="Panasonic freezer top / Nắp tủ đông"></a>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="body">
+      <h2 data-vi="Rack server" data-en="Server rack">Rack server</h2>
+      <span class="price" data-vi="Giá: liên hệ" data-en="Price: please ask">Giá: liên hệ</span>
+      <p data-vi="Khung kim loại màu đen, dạng mở, có bánh xe, khoảng 100×50×80 cm. Khung còn chắc chắn."
+         data-en="Black metal open-frame rack on casters, approx. 100×50×80 cm. Sturdy frame.">Khung kim loại màu đen, dạng mở, có bánh xe, khoảng 100×50×80 cm. Khung còn chắc chắn.</p>
+    </div>
+    <div class="photos single">
+      <a href="img/rack.jpg"><img src="img/rack.jpg" alt="Server rack / Rack server"></a>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="body">
+      <h2 data-vi="Ghế văn phòng lưng lưới" data-en="Mesh office chair">Ghế văn phòng lưng lưới</h2>
+      <span class="price" data-vi="Giá: liên hệ" data-en="Price: please ask">Giá: liên hệ</span>
+      <p data-vi="Màu đen, có đỡ lưng, tay vịn gập lên được, chân xoay có bánh xe. Còn xài tốt."
+         data-en="Black, with lumbar support, flip-up armrests and a swivel base on casters. Works well.">Màu đen, có đỡ lưng, tay vịn gập lên được, chân xoay có bánh xe. Còn xài tốt.</p>
+    </div>
+    <div class="photos single">
+      <a href="img/chair.jpg"><img src="img/chair.jpg" alt="Office chair / Ghế văn phòng"></a>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="body">
+      <h2 data-vi="Đèn LED trần Toshiba — phòng 6 chiếu" data-en="Toshiba LED ceiling light — 6-tatami room">Đèn LED trần Toshiba — phòng 6 chiếu</h2>
+      <span class="price" data-vi="Giá: liên hệ" data-en="Price: please ask">Giá: liên hệ</span>
+      <p data-vi="Đèn LED gắn trần cho phòng 6 chiếu (～6畳). Đèn còn tốt, chao còn trắng sạch."
+         data-en="LED ceiling light for a 6-tatami room (approx. 10 m²). Works well; the shade is still clean and white.">Đèn LED gắn trần cho phòng 6 chiếu (～6畳). Đèn còn tốt, chao còn trắng sạch.</p>
+    </div>
+    <div class="photos single">
+      <a href="img/light.jpg"><img src="img/light.jpg" alt="Toshiba LED ceiling light / Đèn LED Toshiba"></a>
+    </div>
+  </div>
+
+  <p class="foot" data-vi="Trang thanh lý của gia đình · Kawasaki, Kanagawa" data-en="Family sale page · Kawasaki, Kanagawa">Trang thanh lý của gia đình · Kawasaki, Kanagawa</p>
+
+</div>
+<script>
+function setLang(lang){
+  document.querySelectorAll('[data-vi]').forEach(function(el){
+    el.textContent = el.getAttribute('data-' + lang);
+  });
+  document.documentElement.lang = lang;
+  document.getElementById('btn-vi').classList.toggle('on', lang === 'vi');
+  document.getElementById('btn-en').classList.toggle('on', lang === 'en');
+}
+</script>
+</body>
+</html>
